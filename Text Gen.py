@@ -7,9 +7,6 @@ with open("Text.txt", "r", encoding="utf-8") as f:
 
 original = original.replace("\n", " ").split()
 
-punc = [x for x in string.punctuation]
-punc.remove("-")
-punc = "".join(punc)
 accepted = [x for x in string.ascii_letters]
 accepted.append("-")
 source = []
