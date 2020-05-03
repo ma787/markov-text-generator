@@ -6,3 +6,7 @@ The program reads through text from a source file, calculates the probability of
 A random word is then selected and the program generates a 100-word text using the matrix.
 
 The source text used is an extract of the book "Winter Sports in Switzerland".
+
+## Dependencies
+
+[Numpy](https://github.com/numpy/numpy)
